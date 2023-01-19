@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.ItemAdd">
+        <methods>
+          <include name="selectspecification"/>
+          <include name="closebrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- testCases.ItemAdd -->
+      <class name="testCases.RegisterTestcase">
+        <methods>
+          <include name="register"/>
+          <include name="closebrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- testCases.RegisterTestcase -->
+      <class name="testCases.DevicesAvaibilityChek">
+        <methods>
+          <include name="devicechek"/>
+          <include name="closebrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- testCases.DevicesAvaibilityChek -->
+      <class name="testCases.LoginTestCase">
+        <methods>
+          <include name="EnterValues"/>
+          <include name="closebrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- testCases.LoginTestCase -->
+      <class name="testCases.AddToCardPrizeCompare">
+        <methods>
+          <include name="Addtocard"/>
+          <include name="closebrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- testCases.AddToCardPrizeCompare -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
